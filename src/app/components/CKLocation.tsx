@@ -1,4 +1,4 @@
-import condoImg from "figma:asset/e69c8dd99533954b15b34dae3bdb1d21c3d31efd.png";
+import { images } from "../assets/images";
 import { MapPin, Navigation, Clock } from "lucide-react";
 import { SparkleButton } from "./SparkleButton";
 
@@ -38,7 +38,7 @@ export function CKLocation({ onBook }: CKLocationProps) {
             {/* Condo Photo */}
             <div className="rounded-2xl overflow-hidden border border-white/8 h-52 md:h-60 shadow-xl shadow-black/40">
               <img
-                src={condoImg}
+                src={images.condo}
                 alt="The Courtyards Condominium"
                 className="w-full h-full object-cover object-center"
               />

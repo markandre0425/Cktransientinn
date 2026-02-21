@@ -1,9 +1,4 @@
-import livingRoomImg from "figma:asset/7a75b844ac62adfa0bd5cd435913dcf01d1e976f.png";
-import bathroomImg from "figma:asset/3407889af86eaa52aaf07aa692a71b57ac4ab33a.png";
-import kitchenImg from "figma:asset/c8a178b99b4d30767e17fa3c0a149038404a32c4.png";
-import bedroomImg from "figma:asset/29323e9a92733ebb1d5e4b2fe787c75781389825.png";
-import gamesImg from "figma:asset/5070a182ab9cad210c5780db8e4b1c092d8fcb4a.png";
-import condoImg from "figma:asset/e69c8dd99533954b15b34dae3bdb1d21c3d31efd.png";
+import { images } from "../assets/images";
 import {
   Thermometer, Utensils, Gamepad2, ShieldCheck,
   Wifi, ParkingSquare, Droplets, Moon,
@@ -27,11 +22,11 @@ const features = [
 ];
 
 const galleryItems = [
-  { image: livingRoomImg, label: "Living Area", span: "col-span-2 row-span-2" },
-  { image: bedroomImg, label: "Bedroom", span: "col-span-1 row-span-1" },
-  { image: kitchenImg, label: "Kitchen", span: "col-span-1 row-span-1" },
-  { image: bathroomImg, label: "Bathroom", span: "col-span-1 row-span-1" },
-  { image: gamesImg, label: "Bonding Corner", span: "col-span-2 row-span-1" },
+  { image: images.livingRoom, label: "Living Area", span: "col-span-2 row-span-2" },
+  { image: images.bedroom, label: "Bedroom", span: "col-span-1 row-span-1" },
+  { image: images.kitchen, label: "Kitchen", span: "col-span-1 row-span-1" },
+  { image: images.bathroom, label: "Bathroom", span: "col-span-1 row-span-1" },
+  { image: images.games, label: "Bonding Corner", span: "col-span-2 row-span-1" },
 ];
 
 export function CKAmenities({ onBook }: CKAmenitiesProps) {

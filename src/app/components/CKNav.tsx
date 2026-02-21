@@ -58,9 +58,11 @@ export function CKNav({ onBook }: CKNavProps) {
             className="flex items-center gap-2 cursor-pointer"
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           >
-            <div className="flex items-center justify-center w-8 h-8 rounded-lg border-2 border-indigo-500 bg-indigo-500">
-              <span className="text-xs text-white" style={{ fontWeight: 700 }}>CK</span>
-            </div>
+            <img
+              src="/android-chrome-512x512.png"
+              alt="CK Transient Inn"
+              className="w-8 h-8 rounded-lg object-cover shrink-0"
+            />
             <div>
               <p className="text-sm tracking-wide leading-none text-white" style={{ fontWeight: 600 }}>
                 CK Transient Inn

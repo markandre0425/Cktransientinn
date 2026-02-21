@@ -1,9 +1,4 @@
-import condoImg from "figma:asset/e69c8dd99533954b15b34dae3bdb1d21c3d31efd.png";
-import bedroomImg from "figma:asset/29323e9a92733ebb1d5e4b2fe787c75781389825.png";
-import livingRoomImg from "figma:asset/7a75b844ac62adfa0bd5cd435913dcf01d1e976f.png";
-import bathroomImg from "figma:asset/3407889af86eaa52aaf07aa692a71b57ac4ab33a.png";
-import gamesImg from "figma:asset/5070a182ab9cad210c5780db8e4b1c092d8fcb4a.png";
-
+import { images } from "../assets/images";
 import {
   BentoCell,
   BentoGrid,
@@ -13,11 +8,11 @@ import {
 import { SparkleButton } from "../components/SparkleButton";
 
 const IMAGES = [
-  livingRoomImg,
-  bedroomImg,
-  bathroomImg,
-  condoImg,
-  gamesImg,
+  images.livingRoom,
+  images.bedroom,
+  images.bathroom,
+  images.condo,
+  images.games,
 ];
 
 interface CKHeroProps {
