@@ -8,7 +8,6 @@ import { CKRules } from "./components/CKRules";
 import { CKTestimonials } from "./components/CKTestimonials";
 import { CKFooter } from "./components/CKFooter";
 import { CKBookingModal } from "./components/CKBookingModal";
-import { CKFloatingChat } from "./components/CKFloatingChat";
 
 export default function App() {
   const [bookingOpen, setBookingOpen] = useState(false);
@@ -26,7 +25,6 @@ export default function App() {
       <CKRules onBook={openBooking} />
       <CKFooter onBook={openBooking} />
       <CKBookingModal open={bookingOpen} onClose={closeBooking} />
-      <CKFloatingChat onBook={openBooking} />
     </div>
   );
 }

@@ -13,9 +13,7 @@ export function CKFooter({ onBook }: CKFooterProps) {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-3">
-              <div className="flex items-center justify-center w-8 h-8 rounded-lg border-2 border-indigo-500 bg-indigo-500">
-                <span className="text-xs text-white" style={{ fontWeight: 700 }}>CK</span>
-              </div>
+              <img src="/android-chrome-512x512.png" alt="CK" className="w-8 h-8 rounded-lg" />
               <div>
                 <p className="text-white text-sm leading-none" style={{ fontWeight: 600 }}>CK Transient Inn</p>
                 <p className="text-white/30 text-xs">Premium Personal Sanctuary</p>
@@ -85,13 +83,6 @@ export function CKFooter({ onBook }: CKFooterProps) {
                   {link.label}
                 </button>
               ))}
-              <Button
-                variant="link"
-                onClick={onBook}
-                className="block text-indigo-400 hover:text-indigo-300 text-xs p-0 h-auto font-semibold mt-1"
-              >
-                Book Now →
-              </Button>
             </div>
           </div>
         </div>
@@ -100,12 +91,6 @@ export function CKFooter({ onBook }: CKFooterProps) {
           <p className="text-white/20 text-xs">
             © 2025 CK Transient Inn · Leonilla Hill, Baguio City
           </p>
-          <Button
-            onClick={onBook}
-            className="bg-indigo-500 hover:bg-indigo-400 text-white text-xs px-4 font-medium"
-          >
-            Book Your Stay
-          </Button>
         </div>
       </div>
     </footer>

@@ -47,7 +47,7 @@ export function CKTestimonials({ onBook }: CKTestimonialsProps) {
 
   useEffect(() => {
     if (!emblaApi) return;
-    const autoplay = setInterval(() => emblaApi.scrollNext(), 5000);
+    const autoplay = setInterval(() => emblaApi.scrollNext(), 3000);
     return () => clearInterval(autoplay);
   }, [emblaApi]);
 

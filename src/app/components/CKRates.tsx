@@ -82,7 +82,7 @@ export function CKRates({ onBook }: CKRatesProps) {
                   className="text-white text-sm"
                   style={{ fontWeight: 600 }}
                 >
-                  12:00 PM (noon)
+                  11:00 AM
                 </p>
               </div>
               <div className="rounded-lg bg-white/10 p-3">
